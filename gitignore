@@ -1,0 +1,19 @@
+# pySCENIC outputs (large files — do not commit)
+*.loom
+*.feather
+*.csv
+*.h5ad
+
+# SLURM logs
+logs/
+*.out
+*.err
+*.error
+
+# Temp directories
+pyscenic_tmp_*/
+
+# Conda
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
