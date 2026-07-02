@@ -13,7 +13,7 @@
 # =============================================================================
 
 #SBATCH --job-name="pyscenic_aucell"
-#SBATCH --account=st-wasser-1
+#SBATCH --account=st-w
 #SBATCH -t 72:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
